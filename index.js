@@ -13,9 +13,9 @@ import {
 
 const port = process.env.PORT
 const friendsApiUrl = "/api/friends"
-export const friendsDataUrl = "./data/data.json"
+// export const friendsDataUrl = "./data/data.json"
 
-export const friends = JSON.parse(await readFile(friendsDataUrl, "utf8"))
+// export const friends = JSON.parse(await readFile(friendsDataUrl, "utf8"))
 
 const server = express()
 const upload = multer({ dest: "uploads/" })
